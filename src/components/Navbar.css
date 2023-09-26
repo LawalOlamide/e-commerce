@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.nav{
+    background-color:rgba(0,0,0,.9);
+    height:10%;
+    width:100%;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:1.2em 0;
+}
+
+.nav > div{
+    display: flex;
+    align-items: center;
+    margin-right:2em;
+}
+
+.nav > h1{
+    padding-left:1em;    
+}
+
+span{
+    color: blue;
+}
+
+p{
+    margin-left:2em;
+    color:white;
+}
+
+@media (max-width:850px){
+
+
+}
